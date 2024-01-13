@@ -1,0 +1,36 @@
+@charset "utf-8";
+body{margin: 0;font-family: spotify-circular, Helvetica, Arial, sans-serif;color: #fff;}
+
+a{color: #fff;text-decoration: none;}
+a.nav-item:hover{color: #1ed760;}
+nav{height: 80px;background-color: black;display: flex;justify-content: space-around;align-items: center;}
+.nav-item{padding: 28px 17px;font-weight: 700;}
+
+
+main{height: 968px;background-color: rgb(41,65,171);background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);background-size: 175%;background-position: 46% 4%;display: flex;align-items: center;justify-content: center;}
+.headline{font-size: 146px;line-height: 166px;font-weight: 900;color: #1ed760;position: relative;left: 225px;padding-bottom: 40px;}
+.headline_first{position: relative;left: -2.5em;}
+.sub_headline{color: #1ed760;text-align: center;font-size: 18px;line-height: 24px;padding-bottom: 40px;}
+.button_area{text-align: center;}
+.button_style{padding: 14px 32px;border-radius: 500px;background-color: #1ed760;color: #2941ab;font-weight: 700;border: 0;font-size: inherit;}
+.button_style:hover{transform: scale(1.1);}
+
+
+footer{height: 530px;background-color: black;display: flex;justify-content: center;}
+.footer_container{max-width: 1170px;width: 100%;padding-top: 80px;padding-bottom: 50px;}    
+.footer_top{display: flex;justify-content: space-between;height: 346px;}
+.footer_top .list_box{width: 60%;display: flex;justify-content:space-between;}
+.list_box .column{display: flex;flex-direction: column;padding: 0 15px;}
+.column a{padding-bottom: 15px;padding-top: 3px;font-size: 16px;}
+.column a:hover{color: #1ed760;}
+.column .title{color: #919496;font-weight: 900;margin: 20px 0;}
+
+.sns a{width: 54px;height: 54px;background-color: #222322;border-radius: 50%;margin-right: 15px;display: flex;justify-content: center;align-items: center;}
+.sns a:hover{color: #1ed760;}
+.sns a i{font-size: 24px;}
+
+.footer_top .sns{width: 40%;display: flex;justify-content: flex-end;}
+.footer_national{display: flex;justify-content: flex-end;color: #919496;font-size: 12px;}
+.footer_bottom{display: flex;justify-content: space-between;color: #919496;margin-top: 12px;}
+.footer_bottom a{color: #919496;margin-right: 24px;}
+.footer_bottom a:hover{color: #1ed760;}
